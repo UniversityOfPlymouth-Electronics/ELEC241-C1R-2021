@@ -16,8 +16,8 @@ entity elec241_shift_register is
 	(
 		data_in	: in std_logic_vector(NUM_STAGES-1 downto 0);	-- Preload data
 		LOAD_SHIFT : in std_logic;											-- 1 for LOAD, 0 for shift
-		clk		: in std_logic;											-- Clock		
-		Q			  : out std_logic											-- Serial output
+		clk	   : in std_logic;											-- Clock		
+		Q	   : out std_logic											-- Serial output
 	);
 
 end entity;
